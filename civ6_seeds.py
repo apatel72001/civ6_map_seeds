@@ -1,13 +1,13 @@
 # Open save game and search for the 5-byte sequence '93 e5 23 06 03'
 
-# with open("MENELIK.Civ6Save", 'rb') as civ6_sav:
-with open("LADY SIX SKY.Civ6Save", 'rb') as civ6_sav:
+with open("MENELIK.Civ6Save", 'rb') as civ6_sav:
+# with open("LADY SIX SKY.Civ6Save", 'rb') as civ6_sav:
     data = civ6_sav.read()
     file_position = data.find(b'\x93\xe5\x23\x06\x03')
     
-    raw_seed = ((data[file_position-1]*256*256*256) +
-                (data[file_position-2]*256*256) +
-                (data[file_position-3]*256) +
+    raw_seed = ((data[file_position-1] * 2**24) +
+                (data[file_position-2] * 2**16) +
+                (data[file_position-3] * 2**8) +
                 (data[file_position-4]))
     print("Raw Seed:", raw_seed)
     
