@@ -1,4 +1,6 @@
-# Open save game and search for the 5-byte sequence '93 e5 23 06 03'
+# Opens save game and searches for the 5-byte sequence '93 e5 23 06 03'
+# Extracts and reverses the preceeding 4 bytes (32-bit signed integer)
+# That is the Game Seed (+1 for the Map Seed)
 
 with open("MENELIK.Civ6Save", 'rb') as civ6_sav:
 # with open("LADY SIX SKY.Civ6Save", 'rb') as civ6_sav:
