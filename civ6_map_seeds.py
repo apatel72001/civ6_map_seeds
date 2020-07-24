@@ -2,12 +2,13 @@
 # Extracts and reverses the preceeding 4 bytes (32-bit signed integer)
 # That is the Game Seed (+1 for the Map Seed)
 
-save_game = "MENELIK - Roraima.Civ6Save"
-# save_game = "MENELIK - Torres del Paine.Civ6Save"
-# save_game = "LADY SIX SKY - Roraima.Civ6Save"
+save_game = "MENELIK - Roraima"
+# save_game = "MENELIK - Torres del Paine"
+# save_game = "LADY SIX SKY - Roraima"
+print("Save Game File:", save_game)
 
-with open(save_game, 'rb') as civ6_sav:
-    data = civ6_sav.read()
+with open(save_game + ".Civ6Save", 'rb') as Civ6Save:
+    data = Civ6Save.read()
     file_position = data.find(b'\x93\xe5\x23\x06\x03')
     
     raw_seed = ((data[file_position-1] * 2**24) +
