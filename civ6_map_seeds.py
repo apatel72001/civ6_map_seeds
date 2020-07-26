@@ -2,9 +2,10 @@
 # Extracts and reverses the preceeding 4 bytes (32-bit signed integer)
 # That is the Game Seed (+1 for the Map Seed)
 
-save_game = "MENELIK - Roraima"
+# save_game = "MENELIK - Roraima"
 # save_game = "MENELIK - Torres del Paine"
 # save_game = "LADY SIX SKY - Roraima"
+save_game = "PETER - Sahara el Beyda"
 print("Save Game File:", save_game)
 
 with open(save_game + ".Civ6Save", 'rb') as Civ6Save:
