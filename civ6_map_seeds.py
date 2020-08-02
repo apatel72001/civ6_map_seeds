@@ -5,7 +5,8 @@
 # save_game = "MENELIK - Roraima"
 # save_game = "MENELIK - Torres del Paine"
 # save_game = "LADY SIX SKY - Roraima"
-save_game = "PETER - Sahara el Beyda"
+# save_game = "PETER - Sahara el Beyda"
+save_game = "PETER - Valetta"
 print("Save Game File:", save_game)
 
 with open(save_game + ".Civ6Save", 'rb') as Civ6Save:
