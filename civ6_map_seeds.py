@@ -7,7 +7,8 @@
 # save_game = "LADY SIX SKY - Roraima"
 # save_game = "PETER - Sahara el Beyda"
 # save_game = "PETER - Valetta"
-save_game = "PETER - Torres del Paine"
+# save_game = "PETER - Torres del Paine"
+save_game = "PETER-Diety-Yosemite"
 
 print("Save Game File:", save_game)
 
