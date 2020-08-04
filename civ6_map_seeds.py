@@ -8,7 +8,8 @@
 # save_game = "PETER - Sahara el Beyda"
 # save_game = "PETER - Valetta"
 # save_game = "PETER - Torres del Paine"
-save_game = "PETER-Diety-Yosemite"
+# save_game = "PETER-Diety-Yosemite"
+save_game = "PETER 20 3240 BC"
 
 print("Save Game File:", save_game)
 
