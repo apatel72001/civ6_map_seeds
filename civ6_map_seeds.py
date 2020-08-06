@@ -3,13 +3,14 @@
 # That is the Game Seed (+1 for the Map Seed)
 
 # save_game = "MENELIK - Roraima"
+save_game = "SHAKA - Roraima"
 # save_game = "MENELIK - Torres del Paine"
 # save_game = "LADY SIX SKY - Roraima"
 # save_game = "PETER - Sahara el Beyda"
 # save_game = "PETER - Valetta"
 # save_game = "PETER - Torres del Paine"
 # save_game = "PETER-Diety-Yosemite"
-save_game = "PETER 20 3240 BC"
+# save_game = "PETER 20 3240 BC"
 
 print("Save Game File:", save_game)
 
