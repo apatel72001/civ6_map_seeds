@@ -13,8 +13,6 @@
 # save_game = "PETER 20 3240 BC"
 save_game = "FREDERICK - Roraima - Domination"
 
-#####
-
 print("Save Game File:", save_game)
 
 with open(save_game + ".Civ6Save", 'rb') as Civ6Save:
