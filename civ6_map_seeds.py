@@ -11,7 +11,8 @@
 # save_game = "PETER - Torres del Paine"
 # save_game = "PETER-Diety-Yosemite"
 # save_game = "PETER 20 3240 BC"
-save_game = "FREDERICK - Roraima - Domination"
+# save_game = "FREDERICK - Roraima - Domination"
+save_game = "MENELIK II 24 3080 BC"
 
 print("Save Game File:", save_game)
 
