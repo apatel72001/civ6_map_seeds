@@ -12,8 +12,12 @@
 # save_game = "PETER-Diety-Yosemite"
 # save_game = "PETER 20 3240 BC"
 # save_game = "FREDERICK - Roraima - Domination"
+<<<<<<< HEAD
 # A new comment
 save_game = "MENELIK II 24 3080 BC"
+=======
+save_game = "TOMYRIS 54 1880 BC"
+>>>>>>> e6cba65 (Sync to main)
 
 print("Save Game File:", save_game)
 
