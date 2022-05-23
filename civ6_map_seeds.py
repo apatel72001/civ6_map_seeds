@@ -12,10 +12,9 @@
 # save_game = "PETER-Diety-Yosemite"
 # save_game = "PETER 20 3240 BC"
 # save_game = "FREDERICK - Roraima - Domination"
+# save_game = "MENELIK II 24 3080 BC"
 
-# test change
-
-save_game = "MENELIK II 24 3080 BC"
+save_game = "TOMYRIS 54 1880 BC"
 
 print("Save Game File:", save_game)
 
