@@ -12,25 +12,19 @@
 # save_game = "PETER-Diety-Yosemite"
 # save_game = "PETER 20 3240 BC"
 # save_game = "FREDERICK - Roraima - Domination"
-<<<<<<< HEAD
-# A new comment
-save_game = "MENELIK II 24 3080 BC"
-=======
+# save_game = "MENELIK II 24 3080 BC"
 save_game = "TOMYRIS 54 1880 BC"
->>>>>>> e6cba65 (Sync to main)
 
 print("Save Game File:", save_game)
 
 with open(save_game + ".Civ6Save", 'rb') as Civ6Save:
     data = Civ6Save.read()
     file_position = data.find(b'\x93\xe5\x23\x06\x03')
-    
     raw_seed = ((data[file_position-1] * 2**24) +
                 (data[file_position-2] * 2**16) +
                 (data[file_position-3] * 2**8) +
                 (data[file_position-4]))
     print("Raw Seed:", raw_seed)
-    
     max_positive_seed = 2**31 - 1
     print("Max Positive Seed:", max_positive_seed)
 
